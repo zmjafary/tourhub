@@ -81,7 +81,7 @@
             <div class="content">
                 <img src="{{asset('/logo.png')}}" height="35%" width="35%">
                 <br>
-                <p> COMING SOON </p>
+                <p> COMING SOON AS TRIPINIT </p>
             </div>
         </div>
     </body>
