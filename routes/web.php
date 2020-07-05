@@ -26,3 +26,15 @@ Route::middleware('auth')->group(function() {
 	Route::get('/edit-company-user/{id}', 'AdminController@editCompanyUser')->name('editCompanyUser');
 	Route::post('/update-company-user/{id}', 'AdminController@updateCompanyUser')->name('updateCompanyUser');
 });
+
+Route::get('index', function (){
+    return view('index');
+})->name('index');
+
+Route::get('about', function (){
+    return view('about');
+})->name('about');
+
+Route::get('contact', function (){
+    return view('contact');
+})->name('contact');
